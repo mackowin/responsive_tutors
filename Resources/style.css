@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  
+/* Navigation */
+
+.topnav ul {
+    display: flex;
+}
+
+.topnav li {
+    margin: 0 1vw;
+    list-style-type: none;
+}
+
+.topnav a {
+    color: hsl(206, 30%, 70%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.topnav a:hover {
+    color: hsl(0, 0%, 96%);
+}
+
+.topnav-right {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 0.5vw;
+    max-width: 4rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .topnav li {
+        font-size: 0.8rem;
+    }
+}
+
+
+/* General */
+
+body {
+    font-family: Poppins, sans-serif;
+    background: radial-gradient(circle, hsl(0, 0%, 100%) 30%, hsl(206, 100%, 20%) 100%);
+}
+
+header {
+    background-color: hsl(0, 0%, 96%);
+    width: 100%;
+    text-align: center;
+    margin: 0.1rem 0 2.5rem 0;
+    padding: 0.6rem 0 1rem 0;
+}
+
+h1 {
+    color: hsl(206, 68%, 20%);
+    margin: 0 0.8rem;
+}
+
+.subheading {
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    color: hsl(206, 30%, 50%);
+}
+
+.main img {
+    position: absolute;
+    width: 94.3%;
+    height: auto;
+    border: solid hsl(0, 0%, 96%) 5px;
+    border-radius: 20% 0% 0% 20%;
+    margin-left: 5%;
+    z-index: 2;
+
+    /* img visual effect */
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.solutions {
+    background-color: hsl(0, 0%, 96%);
+    margin-top: 15vw;
+}
+
+.solutions-symbol, .solutions-description {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.solutions-symbol {
+    height: 70vw;
+}
+
+.solutions-symbol img {
+    width: 4rem;
+}
+
+.solutions-description p {
+    width: 12rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem 0 6rem 0;
+    color: hsl(206, 68%, 20%);
+}
+
+@media only screen and (max-width: 700px) {
+    .solutions {
+        display: flex;
+        justify-content: center;
+    }
+
+    .solutions-symbol, .solutions-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .solutions-symbol {
+        height: 52rem;
+        padding: 0 0 2rem 1rem;
+        margin-left: 1.5rem;
+    } 
+
+    .solutions-symbol img {
+        width: 5rem;
+        padding: 0 0 3rem 0;
+    }
+
+    .solutions-description {
+        padding: 0 1rem 2rem 3rem;
+    }
+
+    .solutions-description p {
+        text-align: left;
+        padding: 1rem 0 4rem 0;
+    }
+
+    .subheading {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+/* Form */
+
+form {
+    position: absolute;
+    width: 20rem;
+    padding: 1.8rem 1rem;
+    margin: 20vw 20vw;
+    z-index: 3;
+    
+    /* form visual effect */
+    text-align: center;
+    border-radius: 2% 2% 2% 2%;
+    background-color: hsl(0, 0%, 96%);
+    color: hsl(32, 100%, 20%);
+}
+
+form:hover {
+    -moz-box-shadow: 0 0 20px hsl(32, 100%, 20%);
+    -webkit-box-shadow: 0 0 20px hsl(32, 100%, 20%);
+    box-shadow: 0 0 20px hsl(32, 100%, 20%);
+    transition: box-shadow 700ms;
+}
+
+label {
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+.form {
+    font-size: 0.8rem;
+}
+
+.p1 {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.p2 {
+    margin: 0 0 1rem 0;
+}
+
+.p3 {
+    margin: 0 0 1.5rem 0;
+}
+
+input {
+    height: 3rem;
+}
+
+.input-user {
+    width: 13rem;
+    border: solid hsl(206, 30%, 70%) 1px;
+    border-radius: 5%;
+    padding-left: 0.5rem;
+}
+
+.input-submit {
+    width: 4rem;
+    font-weight: 600;
+    background-color: hsl(32, 80%, 60%);
+    color: hsl(0, 0%, 96%);
+    border-color: hsl(32, 80%, 60%);
+    border-radius: 15%;
+}
+
+.form-disclaimer {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 60%);
+    float: left;
+    padding: 0.1rem 0 0 1.6rem;
+}
+
+@media only screen and (max-width: 500px) {
+    form {
+        width: 18rem;
+    }
+    label {
+        font-size: 1.4rem;
+    }
+    .form {
+        font-size: 0.7rem;
+    }
+}
+
+
+/* Bottom navigation */
+
+.bottomnav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(206, 30%, 70%);
+}
+
+.bottomnav li {
+    list-style-type: none;
+    margin: 1vw 1.5vw;
+}
+
+.bottomnav a {
+    color: hsl(206, 68%, 20%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bottomnav a:hover {
+    color: hsl(0, 0%, 96%);
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .bottomnav li {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+/* Colors + whitesmoke + black
+
+#EBA048     hsl(32, 80%, 60%)   orange
+#51A0DE 	hsl(206, 68%, 59%)  blue 
+#f5f5f5     hsl(0, 0, 96%)      whitesmoke
+
+*/

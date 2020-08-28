@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link href="./Resources/style.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="Resources/Symbols/favicon.ico" type="image/x-icon">
+    <title>Tutoring Entrepreneur</title>
+</head>
+
+
+<!-- Simplified navigation -->
+
+<nav class="topnav">
+    <ul>
+        <li><img class="logo" src="Resources/Symbols/Logo.jpg" alt="logo"></li>
+        <div class="topnav-right"> 
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#forum">Forum</a></li>
+            <li><a href="#login">Login</a></li>
+        </div>
+    </ul>
+</nav>
+
+
+<body>
+    <main>
+
+<!-- Welcome introduction -->
+
+        <header>
+            <h1>We support tutors who run online business</h1>
+            <div class="subheading">
+                <p>Software tools, advice and support of like-minded entrepreneurs</p>
+                <p>Everythig you need in one place</p>
+            </div>
+        </header>
+
+<!-- Landing image and form -->
+
+        <section class="main">
+            <img class="landing-photo" src="./Resources/Images/landing-page.jpg" alt="online tutoring">
+
+            <form method="post" action="./action-page.html">
+                <label for="signup-email">Tutor your way to profit</label>
+                    <br>
+                <p class="form p1">If you are thinking of setting up online tutoring business, and don't know where to start...</p>
+                <p class="form p2">...or have one, but feeling constantly <br>overwhelmed with everyday tasks</p>
+                <p class="form p3">Sign up for FREE</p>
+                <input class="input-user" type="text" name="signup-email" id="signup-email" 
+                    placeholder="Enter your email address" 
+                    required 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                    title="This is not a valid email address">
+                <input class="input-submit" type="submit" value="submit">
+                <p class="form-disclaimer">No payment or credit card required</p>
+            </form>
+        </section>
+
+<!-- Solutions -->
+
+        <section class="solutions">
+            <div class="solutions-symbol">
+                <img src="./Resources/Symbols/Toolkit.svg" alt="software toolkit">
+                <img src="./Resources/Symbols/Advice.svg" alt="advice">
+                <img src="./Resources/Symbols/Forum.svg" alt="online community">
+            </div>
+            <div class="solutions-description">
+                <p>Online toolkit to run your business</p>
+                <p>Tips to succeed in online tutoring</p>
+                <p>Community of tutor entrepreneurs like you</p>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+
+<!-- Main navigation -->
+
+<footer>
+    <nav class="bottomnav">
+        <ul>
+            <li><a href="#about">Why XYZ company?</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#blog">Resources</a></li>
+            <li><a href="#forum">Forum</a></li>  
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</html>
