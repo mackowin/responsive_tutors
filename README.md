@@ -13,6 +13,7 @@ Landing page to validate business idea: software tools, advice and support of li
 
 ## Technologies Used ##
 * HTML
+* Form
 * CSS, incl. respoonsiveness
 
 ## Source ##
