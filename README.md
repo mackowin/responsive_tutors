@@ -14,7 +14,7 @@ Landing page to validate business idea: software tools, advice and support of li
 ## Technologies Used ##
 * HTML
 * Form
-* CSS, incl. respoonsiveness
+* CSS, incl. responsiveness
 
 ## Source ##
 Own, validating various business ideas via MVPs.
